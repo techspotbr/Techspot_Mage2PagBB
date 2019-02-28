@@ -1,6 +1,18 @@
 <?php
+/**
+ * The Tech Spot PagBB Module enable make online bank transfer to Bank of Brazil
+ * receive the Payment response, create and capture invoice in Magento 2
+ * Copyright (C) 2019  Tech Spot www.techspot.com.br
+ * 
+ * This file is part of Techspot/MultiLevel.
+ * 
+ * Techspot/PagBB is  a Not For Resale (NFR) software.
+ * 
+ * You should have received a copy of the Not For Resale (NFR) License
+ * along with this program.
+ */
 namespace Techspot\PagBB\Model\PagBB;
-class OnlineDebit extends \Magento\Payment\Model\Method\Cc
+class PagBB extends \Magento\Payment\Model\Method\Cc
 {
     protected $_isGateway = true;
     protected $_canCapture = true;

@@ -2,8 +2,8 @@
 <!--
 /**
  * The Tech Spot PagBB Module enable make online bank transfer to Bank of Brazil
- * receive the Payment response, crate and capture invoice in Magento 2
- * Copyright (C) 2019  Tech Spot 
+ * receive the Payment response, create and capture invoice in Magento 2
+ * Copyright (C) 2019  Tech Spot www.techspot.com.br
  * 
  * This file is part of Techspot/MultiLevel.
  * 

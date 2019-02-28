@@ -1,16 +1,30 @@
 <?xml version="1.0" ?>
+<!--
+/**
+ * The Tech Spot PagBB Module enable make online bank transfer to Bank of Brazil
+ * receive the Payment response, create and capture invoice in Magento 2
+ * Copyright (C) 2019  Tech Spot www.techspot.com.br
+ * 
+ * This file is part of Techspot/MultiLevel.
+ * 
+ * Techspot/PagBB is  a Not For Resale (NFR) software.
+ * 
+ * You should have received a copy of the Not For Resale (NFR) License
+ * along with this program.
+ */
+-->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
         <pagbb>
-            <onlinedebit>
+            <pagbb>
                 <active>1</active>
-                <model>Techspot\PagBB\Model\PagBB\OnlineDebit</model>
+                <model>Techspot\PagBB\Model\PagBB\PagBB</model>
                 <order_status>pending</order_status>
-                <title>Online Debit</title>
+                <title>Online Debit Bank of Brazil</title>
                 <allowspecific>0</allowspecific>
                 <group>Online</group>
-            </onlinedebit>
+            </pagbb>
         </pagbb>
     </default>
 </config>
