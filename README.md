@@ -1,4 +1,4 @@
-# Techspot - PagBB - Magento 2 Module
+# Techspot - PagBB - Magento 2 Module . (((((IN DEVELOPMENT))))
 
 The Tech Spot Mage 2 PagBB Module enable receive paymens by online transfer from Bank Of Brazil - O Módulo Tech Spot Mage2 PagBB habilita sua loja Magento 2 a receber pagamentos via Transferência Online do Banco do Brasil
 
